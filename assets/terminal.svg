@@ -1,0 +1,11 @@
+<svg width="1200" height="210" viewBox="0 0 1200 210" xmlns="http://www.w3.org/2000/svg">
+<rect width="1200" height="210" rx="18" fill="#0A1018"/>
+<rect x="0" y="0" width="1200" height="34" rx="18" fill="#111A26"/>
+<circle cx="22" cy="17" r="5" fill="#FF6B6B"/><circle cx="40" cy="17" r="5" fill="#FFD166"/><circle cx="58" cy="17" r="5" fill="#06D6A0"/>
+<text x="92" y="22" fill="#7F8C9A" font-family="monospace" font-size="12">aj@builder:~/mission</text>
+<text x="35" y="74" fill="#38BDF8" font-family="monospace" font-size="16">$ whoami</text>
+<text x="35" y="102" fill="#D9E6F2" font-family="monospace" font-size="16">Cybersecurity-focused builder creating real systems I can deploy, troubleshoot, secure, and explain.</text>
+<text x="35" y="137" fill="#38BDF8" font-family="monospace" font-size="16">$ current_focus</text>
+<text x="35" y="165" fill="#B8C7D3" font-family="monospace" font-size="16">homelab  |  IT operations  |  security engineering  |  software development</text>
+<text x="35" y="193" fill="#2DD4BF" font-family="monospace" font-size="16">status: building + learning + documenting █</text>
+</svg>

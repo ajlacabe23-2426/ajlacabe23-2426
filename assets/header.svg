@@ -1,0 +1,28 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#07111F"/>
+    <stop offset="0.55" stop-color="#0B1E32"/>
+    <stop offset="1" stop-color="#08131F"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="180" y1="40" x2="1020" y2="260" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#2DD4BF"/>
+    <stop offset="0.5" stop-color="#38BDF8"/>
+    <stop offset="1" stop-color="#818CF8"/>
+  </linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#8BB7D6" stroke-opacity=".07"/>
+  </pattern>
+</defs>
+<rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+<rect width="1200" height="300" rx="24" fill="url(#grid)"/>
+<circle cx="1055" cy="55" r="170" stroke="#38BDF8" stroke-opacity=".10" stroke-width="2"/>
+<circle cx="1055" cy="55" r="130" stroke="#2DD4BF" stroke-opacity=".08" stroke-width="2"/>
+<path d="M88 219H1112" stroke="url(#accent)" stroke-opacity=".35"/>
+<rect x="86" y="62" width="9" height="98" rx="4.5" fill="url(#accent)" filter="url(#glow)"/>
+<text x="124" y="108" fill="#EAF6FF" font-size="50" font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="2">AJ LACABE</text>
+<text x="126" y="149" fill="#8FB6CC" font-size="19" font-family="Arial, Helvetica, sans-serif" letter-spacing="3">CYBERSECURITY  •  IT SYSTEMS  •  SOFTWARE</text>
+<text x="126" y="194" fill="#D9F5FF" font-size="22" font-family="Arial, Helvetica, sans-serif">Build → Verify → Document → Improve</text>
+<text x="90" y="255" fill="#65D7E8" font-size="14" font-family="monospace">ACTIVE PROFILE // HANDS-ON PROJECTS // EVIDENCE-DRIVEN LEARNING</text>
+</svg>

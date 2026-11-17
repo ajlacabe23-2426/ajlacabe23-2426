@@ -1,5 +1,7 @@
 # Master Execution Roadmap — 2026-11-12
 
+Historical planning record. Subsequent merges are tracked in the respective repositories; the PR links and planned milestones below describe the November 12 snapshot, not current release status.
+
 ## Objective and authority
 
 Commercial readiness means **a real operator can safely accomplish a valuable job in a controlled hosted system**, not merely that a demo boots. No source repository is declared production-ready without exact-head verification, independent negative/security tests, recovery evidence, legal/privacy review and a customer outcome baseline.

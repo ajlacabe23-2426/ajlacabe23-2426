@@ -11,13 +11,13 @@ I design, implement and independently verify real workflows: identity and access
 ## Flagship roadmap — unified customer operations
 
 ### LeadFlow CX (working title) · Project 6 + Project 8
-**Status: integration in review — NOT customer-production ready.**
+**Status: initial integration foundation merged — NOT customer-production ready.**
 
 One proposed business service for inbound lead intake, grounded support responses, explainable qualification, human inbox, and consent-aware follow-up drafts.
 
 - **Canonical application:** [Project 8 — AI Customer Support](https://github.com/ajlacabe23-2426/Project-8-AI-customer-support) (Next.js + Supabase tenant model).
 - **Source business rules:** [Project 6 — LeadFlow](https://github.com/ajlacabe23-2426/project6-leadflow-v1) (deterministic scoring, lifecycle controls, durable local outbox).
-- **Existing integration candidates:** [PR #52 — scoring parity](https://github.com/ajlacabe23-2426/Project-8-AI-customer-support/pull/52), [PR #53 — tenant-safe persistence](https://github.com/ajlacabe23-2426/Project-8-AI-customer-support/pull/53).
+- **Merged integration foundation:** [PR #55](https://github.com/ajlacabe23-2426/Project-8-AI-customer-support/pull/55) consolidates deterministic scoring and tenant-scoped persistence. The remaining server-side case adapter and hosted pilot are not certified.
 - **Proposed customer measure:** lead-to-human-response time, qualified lead follow-up coverage, and inbox case-resolution time, each measured against a documented baseline.
 - **Not yet established:** production tenant isolation, staffed response SLA, external delivery, real scheduling, billing, recovery drills, or independently verified customer results.
 
@@ -30,7 +30,7 @@ One proposed business service for inbound lead intake, grounded support response
 | [Project 9 — Market Research Lab](https://github.com/ajlacabe23-2426/Project-9--Swing-Bot) | Reproducible completed-bar market scenario analysis | Research-only; source/corporate-action and independent out-of-sample validation pending |
 | [Axiovela](https://github.com/ajlacabe23-2426/Axiovela) | Decision intelligence and portfolio research | Beta engineering; hosted acceptance, legal activation and production recovery pending |
 | [SportProb — Sports Statistics Lab](https://github.com/ajlacabe23-2426/project-sportbet22) | Offline player-performance history and research methods | Synthetic/retrospective validation; not a wagering product |
-| [Distribution Hub](https://github.com/ajlacabe23-2426/portfolio-distribution-hub) + [Kairo Knox](https://github.com/ajlacabe23-2426/FacelessAI-KairoKnox) | Human-approved scripted media production with reusable assets and verified publication records | Review-first production workflow; platform publication and audience outcomes require independent evidence |
+| [Distribution Hub](https://github.com/ajlacabe23-2426/portfolio-distribution-hub) + [Kairo Knox](https://github.com/ajlacabe23-2426/FacelessAI-KairoKnox) | Human-approved scripted media production with reusable assets and verified publication records | Review-first production tooling integrated; actual media quality, publication and audience outcomes require independent evidence |
 
 ## Security and engineering foundations
 
